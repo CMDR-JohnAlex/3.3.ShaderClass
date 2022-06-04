@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{8c7802b0-e308-4a0f-9a04-20812ca30545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contrib">
+      <UniqueIdentifier>{d0a260be-8a29-4810-8c53-8c7da798af38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{e506e63f-5235-4c0d-baa8-453872cf6ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\config">
+      <UniqueIdentifier>{90644790-8ad4-44e6-911f-ca43fe6a63e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ANSI">
+      <UniqueIdentifier>{dcc5ab23-65e5-4dd8-a58c-fc92beda18e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\icons">
+      <UniqueIdentifier>{1eb32c95-619b-4775-8944-7e1031c9fede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\models">
+      <UniqueIdentifier>{ed1f7e47-a784-4a4b-93c0-0f40cd5e3573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\music">
+      <UniqueIdentifier>{de69d0fd-b19d-439e-be50-5359af92d2e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\shaders">
+      <UniqueIdentifier>{27ce16ac-dabc-4fa2-bb9a-279a48cf8e48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\sound">
+      <UniqueIdentifier>{6c3481b0-8d29-4aeb-8bfa-a73645526924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\textures">
+      <UniqueIdentifier>{8b3268b3-2f8a-4163-a963-205b2a8bf671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contrib\glad">
+      <UniqueIdentifier>{f161108f-1e08-479f-b479-aceee8bd6a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contrib\stb">
+      <UniqueIdentifier>{ef2de56a-1eb6-4619-8884-88126c077ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contrib\glfw">
+      <UniqueIdentifier>{ab995a9e-1f4d-41e9-abcc-402dee6a188f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contrib\glm">
+      <UniqueIdentifier>{bcaee1cc-6e84-46d4-88be-11e2e7b35d3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\shader">
+      <UniqueIdentifier>{24643e41-44e6-4d45-9aaf-e5f627f225b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shader\shader.cpp">
+      <Filter>src\shader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\config\config.hpp">
+      <Filter>src\config</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ANSI\ANSI.hpp">
+      <Filter>src\ANSI</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\stb\stb_image.h">
+      <Filter>contrib\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shader\shader.hpp">
+      <Filter>src\shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include="AUTHORS.md" />
+    <None Include="CHANGELOG.md" />
+    <None Include="src\ANSI\ANSI.md">
+      <Filter>src\ANSI</Filter>
+    </None>
+    <None Include="contrib\glad\LICENSE">
+      <Filter>contrib\glad</Filter>
+    </None>
+    <None Include="contrib\glfw\LICENSE.md">
+      <Filter>contrib\glfw</Filter>
+    </None>
+    <None Include="data\shaders\shaderClass.frag">
+      <Filter>data\shaders</Filter>
+    </None>
+    <None Include="data\shaders\shaderClass.vert">
+      <Filter>data\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LICENSE" />
+    <Text Include="contrib\placeHolder.txt">
+      <Filter>contrib</Filter>
+    </Text>
+    <Text Include="data\placeHolder.txt">
+      <Filter>data</Filter>
+    </Text>
+    <Text Include="data\icons\placeholder.txt">
+      <Filter>data\icons</Filter>
+    </Text>
+    <Text Include="data\models\placeholder.txt">
+      <Filter>data\models</Filter>
+    </Text>
+    <Text Include="data\music\placeholder.txt">
+      <Filter>data\music</Filter>
+    </Text>
+    <Text Include="data\shaders\placeholder.txt">
+      <Filter>data\shaders</Filter>
+    </Text>
+    <Text Include="data\sounds\placeholder.txt">
+      <Filter>data\sound</Filter>
+    </Text>
+    <Text Include="data\textures\placeholder.txt">
+      <Filter>data\textures</Filter>
+    </Text>
+    <Text Include="contrib\glm\copying.txt">
+      <Filter>contrib\glm</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
