@@ -9,13 +9,12 @@
 // -------------------------
 // GLAD
 #include <glad/glad.h>
-#include "../../thirdparty/glad/src/glad.c"
 // GLFW
 #include <GLFW/glfw3.h>
 GLFWwindow* window;
 // stb
 #define STB_IMAGE_IMPLEMENTATION
-#include "../contrib/stb/stb_image.h"
+#include "../contrib/stb/stb_image.hpp"
 // GLM
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>

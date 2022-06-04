@@ -57,6 +57,9 @@
     <ClCompile Include="src\shader\shader.cpp">
       <Filter>src\shader</Filter>
     </ClCompile>
+    <ClCompile Include="contrib\glad\glad.cpp">
+      <Filter>contrib\glad</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\config\config.hpp">
@@ -65,11 +68,11 @@
     <ClInclude Include="src\ANSI\ANSI.hpp">
       <Filter>src\ANSI</Filter>
     </ClInclude>
-    <ClInclude Include="contrib\stb\stb_image.h">
-      <Filter>contrib\stb</Filter>
-    </ClInclude>
     <ClInclude Include="src\shader\shader.hpp">
       <Filter>src\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\stb\stb_image.hpp">
+      <Filter>contrib\stb</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

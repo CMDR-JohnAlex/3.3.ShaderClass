@@ -162,11 +162,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="contrib\glad\glad.cpp" />
     <ClCompile Include="src\shader\shader.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="contrib\stb\stb_image.h" />
+    <ClInclude Include="contrib\stb\stb_image.hpp" />
     <ClInclude Include="src\shader\shader.hpp" />
     <ClInclude Include="src\ANSI\ANSI.hpp" />
     <ClInclude Include="src\config\config.hpp" />
